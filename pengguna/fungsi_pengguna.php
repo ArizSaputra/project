@@ -6,7 +6,7 @@ if (!$conn) {
 } else {
     echo "Koneksi Berhasil";
 }
-
+//tes
 
 function query($query)
 {
