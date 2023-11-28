@@ -1,0 +1,13 @@
+<?php
+session_start();
+
+// Hapus semua variabel sesi
+session_unset();
+
+// Hancurkan sesi
+session_destroy();
+
+// Arahkan pengguna ke halaman awal.php
+header("Location: awal.php");
+exit();
+?>
